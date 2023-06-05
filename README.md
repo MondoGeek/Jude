@@ -1,6 +1,6 @@
 ## How does it work?
 
-Like mentioned above, this tool is written in C# and can be used on Windows and OSX systems to exfiltrate Discord Tokens. Once executed it will look through the file system and attempt to locate a Discord Account Tokens. Once it finds one it will send a message to your Discord server via Discord Webhooks which will contain the token, information about the system and information about the Discord Account.C++ 17 is used (filesystem is used in this project). It searches for tokens in Discord, Discord PTB, Discord Canary, Chrome, Opera, Brave and Yandex directories. Once
+Like mentioned above, this tool is written in PY and can be used on Windows and OSX systems to exfiltrate Discord Tokens. Once executed it will look through the file system and attempt to locate a Discord Account Tokens. Once it finds one it will send a message to your Discord server via Discord Webhooks which will contain the token, information about the system and information about the Discord Account.C++ 17 is used (filesystem is used in this project). It searches for tokens in Discord, Discord PTB, Discord Canary, Chrome, Opera, Brave and Yandex directories. Once
 it finds a token, it sends it to your Discord webhook.
 
 # Features
